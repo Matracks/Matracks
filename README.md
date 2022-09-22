@@ -56,7 +56,7 @@ me = ReadMe()
 ```
 <p align="center">
 
-<a href="https://www.linkedin.com/in/paulo-matias-moran-almada-65159b24b" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Paulo Moran-blue?style=flat-square&logo=linkedin"></a>  <a href="mailto:matiasmoran05@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-matiasmoran05@gmail.com-blue?style=flat-square&logo=gmail"></a>
+<a href="https://www.linkedin.com/in/paulo-matias-moran-almada-65159b24b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Paulo Moran-blue?style=flat-square&logo=linkedin"></a>  <a href="mailto:matiasmoran05@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-matiasmoran05@gmail.com-blue?style=flat-square&logo=gmail"></a>
 
 </p>
 
