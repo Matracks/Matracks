@@ -1,16 +1,50 @@
-### Hi there 👋
+```python
+from datetime import datetime
 
-<!--
-**Matracks/Matracks** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+class ReadMe:
+    def __init__(self, username="Matracks", year=datetime.today().year):
+        self.username = username
+        self.year = year
+        self.name = 'Paulo Matias Moran Almada'
+        self.education = {
+            'programming': [
+                ['Web Development', 'BIOS Institute'],
+                ['Django', 'Udemy + Online Courses'],
+                ['Django Rest Framework', 'Udemy + Online Courses']
+                ],
+            'economist': ['three years economist carrer'],
+            'language': ['english - medium level', 'chinese - HSK II']
+        }
+        self.employment = {
+            'finance assistant': ['Lovimar SA', 'Montevideo / Uruguay'],
+            'developer': ['developer', 'world'],
+        }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def doing(self, now=2022):
+        today = self.year
+
+        if now < today:
+            experience = self.employment['finance assistant']
+            return f"""
+            I was a finance assistant in {experience[0]} in {experience[1]}.
+            """
+
+        elif now == today:
+            dream = self.education['programming']
+            return f"""
+            I am currently learning {dream[-1][0]}.
+            """
+
+        else:
+            goal = self.employment['developer']
+            return f"""
+            Hey!, you, in the future, i am working as a {goal[0]} in {goal[1]}.
+            """
+
+
+me = ReadMe()
+```
+
+---
+⭐️ From [Matracks](https://github.com/Matracks)
