@@ -17,7 +17,7 @@ class ReadMe:
                 ['Django Rest Framework', 'Udemy + Online Courses']
                 ],
             'economist': ['three years economist carrer'],
-            'language': ['spanish - native', 'english - medium level', 'chinese - HSK II']
+            'language': ['spanish - native', 'english - mid level', 'chinese - HSK II']
         }
         self.employment = {
             'finance assistant': ['Lovimar SA', 'Montevideo / Uruguay'],
