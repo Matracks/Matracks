@@ -10,6 +10,7 @@ class ReadMe:
         self.education = {
             'programming': [
                 ['Web Development', 'BIOS Institute'],
+                ['Python', 'Udemy + Online Courses'],
                 ['Django', 'Udemy + Online Courses'],
                 ['Django Rest Framework', 'Udemy + Online Courses']
                 ],
