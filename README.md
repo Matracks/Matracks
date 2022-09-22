@@ -6,7 +6,7 @@ class ReadMe:
     def __init__(self, username="Matracks", year=datetime.today().year):
         self.username = username
         self.year = year
-        self.name = 'Paulo Matias Moran Almada'
+        self.name = 'Paulo Moran'
         self.education = {
             'programming': [
                 ['Web Development', 'BIOS Institute'],
@@ -20,6 +20,12 @@ class ReadMe:
             'finance assistant': ['Lovimar SA', 'Montevideo / Uruguay'],
             'developer': ['developer', 'world'],
         }
+
+    def __str__(self):
+        return f"""
+        Hi, I am {self.name} and {self.username} on GitHub,
+        I am delighted that you are here, have a nice day.
+        """
 
     def doing(self, now=2022):
         today = self.year
