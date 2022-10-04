@@ -17,7 +17,7 @@ class ReadMe:
         }
         self.employment = {
             'finance assistant': ['Lovimar SA', 'Montevideo / Uruguay'],
-            'developer': ['developer', 'world'],
+            'developer': ['thanks you', 'my profile'],
         }
 
     def __str__(self):
@@ -44,7 +44,7 @@ class ReadMe:
         else:
             goal = self.employment['developer']
             return f"""
-            Hey!, you, in the future, i am working as a {goal[0]} in {goal[1]}.
+            Hey!, you, in the future, {goal[0]} for visit {goal[1]}.
             """
 
 
