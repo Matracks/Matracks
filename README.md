@@ -10,12 +10,8 @@ class ReadMe:
         self.year = year
         self.name = 'Paulo Moran'
         self.education = {
-            'programming': [
-                ['Web Development', 'BIOS Institute'],
-                ['Python', 'Udemy + Online Courses'],
-                ['Django', 'Udemy + Online Courses'],
-                ['Django Rest Framework', 'Udemy + Online Courses']
-                ],
+            'dev language': ['Python', 'Javascript', 'PHP','HTML', 'CSS'],
+            'framework': ['Django + DRF', 'fastAPI'],
             'economist': ['three years economist carrer'],
             'language': ['spanish - native', 'english - mid level', 'chinese - HSK II']
         }
