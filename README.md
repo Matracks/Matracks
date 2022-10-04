@@ -10,7 +10,7 @@ class ReadMe:
         self.year = year
         self.name = 'Paulo Moran'
         self.education = {
-            'dev language': ['Python', 'Javascript', 'PHP','HTML', 'CSS'],
+            'dev language': ['Python', 'Javascript', 'PHP', 'HTML', 'CSS'],
             'framework': ['Django + DRF', 'fastAPI'],
             'economist': ['three years economist carrer'],
             'language': ['spanish - native', 'english - mid level', 'chinese - HSK II']
@@ -36,9 +36,9 @@ class ReadMe:
             """
 
         elif now == today:
-            dream = self.education['programming']
+            dream = self.education['framework']
             return f"""
-            I am currently learning {dream[-1][0]}.
+            I am currently learning {dream[-1]}.
             """
 
         else:
